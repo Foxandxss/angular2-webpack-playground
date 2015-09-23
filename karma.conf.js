@@ -11,7 +11,7 @@ module.exports = function karmaConfig (config) {
     ],
 
     preprocessors: {
-      'test/test.bundle.js': ['webpack']
+      'test/test.bundle.js': ['webpack', 'sourcemap']
     },
 
     browsers: [
@@ -26,6 +26,7 @@ module.exports = function karmaConfig (config) {
         filename: './dist/awesome-library.js',
         libraryTarget: 'umd'
       },
+      devtool: 'inline-source-map',
       module: {
         loaders: [
           {
