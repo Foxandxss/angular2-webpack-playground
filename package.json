@@ -18,6 +18,11 @@
   "homepage": "https://github.com/Foxandxss/angular2-webpack-playground#readme",
   "devDependencies": {
     "awesome-typescript-loader": "^0.14.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-webpack": "^1.7.0",
     "typescript": "^1.6.2",
     "webpack": "^1.12.2"
   }
